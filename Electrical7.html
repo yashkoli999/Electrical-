@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kalpesh Electrical - Surat's Premier Licensed Electrical Contractor. 15+ Years Experience. House Wiring, Commercial Projects, 24/7 Emergency. Call 9924206106">
+<title>Kalpesh Electrical | Elite Electrical Contractor | Surat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  :root {
+    --dark: #0b1120;
+    --navy: #1e293b;
+    --blue: #1d4ed8;
+    --blue-light: #3b82f6;
+    --gold: #d97706;
+    --gold-light: #fbbf24;
+    --white: #ffffff;
+    --gray-50: #f8fafc;
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0;
+    --gray-600: #475569;
+    --gray-800: #1e293b;
+    --success: #059669;
+  }
+    * {margin:0;padding:0;box-sizing:border-box}
+  html {scroll-behavior:smooth}
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--white);
+    color: var(--dark);
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+  img {max-width:100%;height:auto;display:block}
+  
+  /* Premium Top Bar */
+  .topbar {
+    background: linear-gradient(90deg, var(--dark), var(--navy));
+    color: #fff;
+    padding: 14px 0;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .topbar-inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .topbar-left, .topbar-right {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+  }
+  .topbar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .topbar-item i {
+    color: var(--gold-light);
+    font-size: 15px;
+  }
+  .topbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .topbar a:hover {
+    color: var(--gold-light);
+  }
+  
+  /* Premium Navbar */
+  .navbar {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .nav-inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 22px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .brand-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--blue), var(--blue-light));
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 30px rgba(29,78,216,0.35);
+    position: relative;
+    transition: 0.4s;
+  }
+  .brand:hover .brand-icon {
+    transform: rotate(5deg) scale(1.05);
+  }
+  .brand-text h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--dark);
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  .brand-text p {
+    font-size: 10px;
+    color: var(--gray-600);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-top: 5px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.3s;
+    position: relative;
+    letter-spacing: 0.3px;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    border-radius: 2px;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav-links a:hover {
+    color: var(--blue);
+  }
+  .nav-links a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+  }
+  .btn {
+    padding: 16px 32px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 14px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    color: var(--dark);
+    box-shadow: 0 6px 30px rgba(217,119,6,0.45);
+  }
+  .btn-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 45px rgba(217,119,6,0.65);
+  }
+  
+  /* Premium Hero */
+  .hero {
+    background: linear-gradient(135deg, #0b1120 0%, #1e293b 35%, #1e3a8a 100%);
+    color: #fff;
+    padding: 140px 32px 120px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    right: -15%;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, rgba(217,119,6,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: float 8s ease-in-out infinite;
+  }
+  @keyframes float {
+    0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+    50% { transform: translate(-40px, -40px) scale(1.08) rotate(5deg); }
+  }
+  .hero-grid {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 90px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(217,119,6,0.15);
+    border: 2px solid rgba(217,119,6,0.4);
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(217,119,6,0.2);
+  }
+  .hero-badge i {
+    color: var(--gold-light);
+    font-size: 18px;
+  }
+  .hero-content h2 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 1.02;
+    margin-bottom: 32px;
+    letter-spacing: -2.5px;
+  }
+  .hero-content h2 .gradient {
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 45px;
+    opacity: 0.95;
+    line-height: 1.9;
+    font-weight: 400;
+  }
+  .trust-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+  }
+  .trust-chip {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    padding: 14px 22px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    transition: 0.4s;
+  }
+  .trust-chip:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-3px);
+    border-color: rgba(217,119,6,0.3);
+  }
+  .trust-chip i {
+    color: var(--gold-light);
+    font-size: 16px;
+  }
+  .hero-btns {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .btn-outline {
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.2);
+  }
+  .btn-outline:hover {
+    background: #fff;
+    color: var(--dark);
+    border-color: #fff;
+    transform: translateY(-4px);
+  }
+  .hero-image-wrapper {
+    position: relative;
+  }
+  .hero-main-img {
+    border-radius: 32px;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.6);
+    border: 5px solid rgba(255,255,255,0.08);
+  }
+  .floating-card {
+    position: absolute;
+    bottom: -35px;
+    left: -35px;
+    background: #fff;
+    padding: 28px;
+    border-radius: 22px;
+    box-shadow: 0 25px 70px rgba(0,0,0,0.35);
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .floating-card-icon {
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(135deg, var(--success), #059669);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(5,150,105,0.4);
+  }
+  .floating-card-text h4 {
+    color: var(--dark);
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 3px;
+  }
+  .floating-card-text p {
+    color: var(--gray-600);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  /* Premium Stats Bar */
+  .stats-bar {
+    background: var(--white);
+    padding: 60px 32px;
+    border-bottom: 1px solid var(--gray-100);
+  }
+  .stats-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  .stat-box {
+    text-align: center;
+    padding: 25px;
+    position: relative;
+  }
+  .stat-box::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background: var(--gray-200);
+  }
+  .stat-box:last-child::after {
+    display: none;
+  }
+  .stat-icon {
+    font-size: 48px;
+    margin-bottom: 18px;
+  }
+  .stat-value {
+    font-size: 54px;
+    font-weight: 900;
+    background: linear-gradient(135deg, var(--blue), var(--blue-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .stat-label {
+    font-size: 14px;
+    color: var(--gray-600);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Section Base */
+  .section {
+    padding: 130px 32px;
+  }
+  .section-alt {
+    background: var(--gray-50);
+  }
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .section-head {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  .section-pill {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(217,119,6,0.1), rgba(251,191,36,0.1));
+    color: var(--gold);
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 24px;
+    border: 2px solid rgba(217,119,6,0.25);
+  }
+  .section-title {
+    font-size: 62px;
+    font-weight: 900;
+    color: var(--dark);
+    margin-bottom: 26px;
+    letter-spacing: -2px;
+    line-height: 1.1;
+  }
+  .section-subtitle {
+    font-size: 20px;
+    color: var(--gray-600);
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+  
+  /* Premium Services */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 45px;
+  }
+  .service-card {
+    background: #fff;
+    border-radius: 32px;
+    overflow: hidden;
+    border: 2px solid var(--gray-100);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+  }
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.6s;
+  }
+  .service-card:hover::before {
+    transform: scaleX(1);
+  }
+  .service-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 40px 80px rgba(11,17,32,0.2);
+    border-color: var(--gold);
+  }
+  .service-img-wrapper {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+  }
+  .service-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .service-card:hover .service-img {
+    transform: scale(1.12) rotate(1deg);
+  }
+  .service-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(217,119,6,0.95);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(217,119,6,0.4);
+  }
+  .service-content {
+    padding: 50px;
+  }
+  .service-icon-box {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--navy), var(--blue));
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 28px;
+    box-shadow: 0 10px 35px rgba(29,78,216,0.4);
+    margin-top: -90px;
+    position: relative;
+    border: 5px solid #fff;
+  }
+  .service-card h3 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 18px;
+    color: var(--dark);
+    letter-spacing: -0.8px;
+  }
+  .service-card > .service-content > p {
+    color: var(--gray-600);
+    margin-bottom: 28px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+  }
+  .service-list {
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  .service-list li {
+    padding: 14px 0;
+    color: var(--gray-800);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 1px solid var(--gray-100);
+    font-weight: 600;
+  }
+  .service-list li:last-child {
+    border-bottom: none;
+  }
+  .service-list li i {
+    color: var(--success);
+    font-size: 20px;
+  }
+  .service-caption {
+    background: linear-gradient(135deg, var(--gray-50), var(--gray-100));
+    padding: 20px;
+    border-radius: 14px;
+    border-left: 4px solid var(--gold);
+    margin-top: 20px;
+  }
+  .service-caption p {
+    font-size: 14px;
+    color: var(--gray-700);
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 0;
+  }
+  .service-caption i {
+    color: var(--gold);
+    margin-right: 8px;
+  }
+  
+  /* About Section Premium */
+  .about-section {
+    background: linear-gradient(135deg, var(--dark) 0%, var(--navy) 50%, #1e3a8a 100%);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="1.5" fill="rgba(255,255,255,0.03)"/></svg>');
+  }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 90px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .about-content h3 {
+    font-size: 54px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+  }
+  .about-content p {
+    font-size: 18px;
+    opacity: 0.95;
+    margin-bottom: 24px;
+    line-height: 1.9;
+    font-weight: 400;
+  }
+  .about-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 50px;
+  }
+  .about-feature {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+  }
+  .about-feature-icon {
+    width: 62px;
+    height: 62px;
+    background: rgba(217,119,6,0.15);
+    border: 2px solid rgba(217,119,6,0.35);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: var(--gold-light);
+    flex-shrink: 0;
+    transition: 0.4s;
+  }
+  .about-feature:hover .about-feature-icon {
+    background: rgba(217,119,6,0.25);
+    transform: scale(1.1) rotate(5deg);
+  }
+  .about-feature h4 {
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .about-feature p {
+    font-size: 14px;
+    opacity: 0.88;
+    margin: 0;
+    line-height: 1.7;
+  }
+  .about-image-wrapper {
+    position: relative;
+  }
+  .about-main-img {
+    border-radius: 32px;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.5);
+    border: 6px solid rgba(255,255,255,0.08);
+  }
+  .cert-card {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    background: #fff;
+    padding: 35px;
+    border-radius: 24px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.4);
+    color: var(--dark);
+    max-width: 300px;
+  }
+  .cert-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, var(--success), #059669);
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 15px rgba(5,150,105,0.4);
+  }
+  .cert-card h4 {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+  .cert-card ul {
+    list-style: none;
+    font-size: 13px;
+    color: var(--gray-600);
+  }
+  .cert-card li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+  .cert-card li i {
+    color: var(--success);
+    font-size: 16px;
+  }
+  
+  /* Testimonials Premium */
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+  }
+  .testimonial {
+    background: #fff;
+    padding: 50px;
+    border-radius: 28px;
+    border: 2px solid var(--gray-100);
+    position: relative;
+    transition: 0.5s;
+  }
+  .testimonial::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    border-radius: 28px 28px 0 0;
+    transform: scaleX(0);
+    transition: 0.5s;
+  }
+  .testimonial:hover::before {
+    transform: scaleX(1);
+  }
+  .testimonial:hover {
+    border-color: var(--gold);
+    box-shadow: 0 30px 70px rgba(11,17,32,0.15);
+    transform: translateY(-8px);
+  }
+  .quote-mark {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    font-size: 70px;
+    color: var(--gold);
+    opacity: 0.12;
+  }
+  .rating {
+    color: var(--gold);
+    margin-bottom: 24px;
+    font-size: 22px;
+  }
+  .testimonial-text {
+    font-size: 17px;
+    color: var(--gray-800);
+    margin-bottom: 32px;
+    line-height: 1.9;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 28px;
+    border-top: 2px solid var(--gray-100);
+  }
+  .author-img {
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(135deg, var(--navy), var(--blue));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 26px;
+    box-shadow: 0 6px 20px rgba(29,78,216,0.35);
+  }
+  .author-details h5 {
+    font-size: 19px;
+    font-weight: 900;
+    color: var(--dark);
+    margin-bottom: 5px;
+  }
+  .author-details p {
+    font-size: 14px;
+    color: var(--gray-600);
+    font-weight: 700;
+  }
+  
+  /* Contact Premium */
+  .contact-section {
+    background: linear-gradient(135deg, var(--dark) 0%, var(--navy) 50%, #1e3a8a 100%);
+    color: #fff;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 80px;
+  }
+  .contact-info h3 {
+    font-size: 58px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    letter-spacing: -2px;
+  }
+  .contact-info > p {
+    font-size: 19px;
+    opacity: 0.95;
+    margin-bottom: 55px;
+  }
+  .contact-cards {
+    display: grid;
+    gap: 25px;
+  }
+  .contact-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    padding: 35px;
+    border-radius: 22px;
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: 0.5s;
+  }
+  .contact-card:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateX(12px);
+    border-color: rgba(217,119,6,0.4);
+    box-shadow: 0 10px 40px rgba(217,119,6,0.2);
+  }
+  .contact-icon {
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: var(--dark);
+    flex-shrink: 0;
+    box-shadow: 0 6px 25px rgba(217,119,6,0.5);
+  }
+  .contact-details h4 {
+    font-size: 13px;
+    opacity: 0.85;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+  }
+  .contact-details a, .contact-details p {
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+  }
+  .payment-card {
+    background: #fff;
+    padding: 60px;
+    border-radius: 32px;
+    color: var(--dark);
+    box-shadow: 0 40px 100px rgba(0,0,0,0.4);
+  }
+  .payment-card h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .payment-card > p {
+    color: var(--gray-600);
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .upi-box {
+    background: linear-gradient(135deg, #5f259f, #7c3aed);
+    color: #fff;
+    padding: 45px;
+    border-radius: 24px;
+    text-align: center;
+    margin: 40px 0;
+    box-shadow: 0 20px 60px rgba(95,37,159,0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  .upi-box::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+    animation: rotate 25s linear infinite;
+  }
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .upi-label {
+    font-size: 12px;
+    opacity: 0.95;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    position: relative;
+  }
+  .upi-id {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+    word-break: break-all;
+    position: relative;
+  }
+   .payment-apps {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+  }
+  .payment-app {
+    font-size: 13px;
+    color: var(--gray-600);
+    font-weight: 800;
+    padding: 12px 20px;
+    background: var(--gray-100);
+    border-radius: 12px;
+    border: 2px solid var(--gray-200);
+    transition: 0.3s;
+  }
+  .payment-app:hover {
+    background: var(--gray-200);
+    transform: translateY(-2px);
+  }
+  .info-note {
+    font-size: 14px;
+    color: var(--gray-600);
+    margin-top: 35px;
+    text-align: center;
+    background: var(--gray-50);
+    padding: 22px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    border: 2px solid var(--gray-100);
+    font-weight: 600;
+  }
+  .info-note i {
+    color: var(--blue);
+    font-size: 20px;
+  }
+  
+  /* Premium Footer */
+  .footer {
+    background: var(--dark);
+    color: #fff;
+    padding: 90px 32px 35px;
+    position: relative;
+  }
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+  }
+  .footer-inner {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2.8fr 1fr 1fr 1.4fr;
+    gap: 80px;
+    margin-bottom: 70px;
+  }
+  .footer-about h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .footer-about p {
+    opacity: 0.88;
+    margin-bottom: 32px;
+    line-height: 1.9;
+    font-size: 15px;
+  }
+  .social-links {
+    display: flex;
+    gap: 16px;
+  }
+  .social-link {
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.05);
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 22px;
+  }
+  .social-link:hover {
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    color: var(--dark);
+    transform: translateY(-5px) rotate(5deg);
+    border-color: var(--gold);
+    box-shadow: 0 8px 25px rgba(217,119,6,0.4);
+  }
+  .footer-col h4 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 28px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  .footer-col h4::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    border-radius: 2px;
+  }
+  .footer-col ul {
+    list-style: none;
+  }
+  .footer-col li {
+    margin-bottom: 18px;
+  }
+  .footer-col a {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+    transition: 0.4s;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+  }
+  .footer-col a:hover {
+    color: var(--gold-light);
+    padding-left: 10px;
+  }
+  .footer-col a i {
+    font-size: 14px;
+    width: 22px;
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  .footer-tagline {
+    margin-top: 20px;
+    font-size: 19px;
+    color: var(--gold-light);
+    font-weight: 800;
+    letter-spacing: 0.8px;
+  }
+  
+  /* Premium Floating Buttons */
+  .float-container {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 999;
+  }
+  .float-btn {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    text-decoration: none;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: float 3s ease-in-out infinite;
+    position: relative;
+  }
+  .float-btn::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: 0.4s;
+  }
+  .float-btn:hover::before {
+    opacity: 1;
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  .float-btn:hover {
+    transform: scale(1.2) translateY(-8px);
+  }
+  .float-whatsapp {
+    background: linear-gradient(135deg, #25D366, #20ba5a);
+    color: #fff;
+    animation-delay: 0s;
+  }
+  .float-call {
+    background: linear-gradient(135deg, var(--blue), var(--navy));
+    color: #fff;
+    animation-delay: 0.5s;
+  }
+  
+  /* Responsive Premium */
+  @media (max-width: 1300px) {
+    .hero-grid, .about-grid, .contact-grid, .footer-grid {
+      grid-template-columns: 1fr;
+    }
+    .hero-content h2 {
+      font-size: 58px;
+    }
+    .nav-links {
+      display: none;
+    }
+    .stats-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .stat-box::after {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .hero {
+      padding: 90px 24px;
+    }
+    .hero-content h2 {
+      font-size: 44px;
+    }
+    .section {
+      padding: 90px 24px;
+    }
+    .section-title {
+      font-size: 42px;
+    }
+    .services-grid, .testimonials-grid {
+      grid-template-columns: 1fr;
+    }
+    .hero-btns, .nav-cta-group {
+      flex-direction: column;
+      width: 100%;
+    }
+    .btn {
+      width: 100%;
+      justify-content: center;
+    }
+    .about-features {
+      grid-template-columns: 1fr;
+    }
+    .topbar-inner {
+      justify-content: center;
+      text-align: center;
+    }
+    .stats-container {
+      grid-template-columns: 1fr;
+      gap: 35px;
+    }
+    .floating-card {
+      position: static;
+      margin-top: 35px;
+    }
+    .cert-card {
+      position: static;
+      margin-top: 35px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <div class="topbar-item">
+        <i class="fas fa-certificate"></i>
+        <span>Government Licensed Contractor</span>
+      </div>
+      <div class="topbar-item">
+        <i class="fas fa-clock"></i>
+        <span>24/7 Emergency Service Available</span>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <a href="tel:+919924206106" class="topbar-item">
+        <i class="fas fa-phone"></i>
+        <span>+91 99242 06106</span>
+      </a>
+      <a href="mailto:kalpeshelectrical@gmail.com" class="topbar-item">
+        <i class="fas fa-envelope"></i>
+        <span>Email Us</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-text">
+        <h1>KALPESH ELECTRICAL</h1>
+        <p>Licensed Electrical Contractor</p>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta-group">
+      <a href="tel:+919924206106" class="btn btn-primary">
+        <i class="fas fa-phone-alt"></i> Call Now
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-award"></i>
+        <span>Surat's #1 Trusted Electrical Contractor</span>
+      </div>
+      <h2>Professional <span class="gradient">Electrical Solutions</span> For Surat</h2>
+      <p>Government licensed wireman with 15+ years of expertise. From residential wiring to commercial projects - we deliver safe, reliable, and affordable electrical solutions across Surat.</p>
+      
+      <div class="trust-row">
+        <div class="trust-chip">
+          <i class="fas fa-certificate"></i>
+          <span>Licensed & Certified</span>
+        </div>
+        <div class="trust-chip">
+          <i class="fas fa-bolt"></i>
+          <span>24/7 Emergency</span>
+        </div>
+        <div class="trust-chip">
+          <i class="fas fa-shield-halved"></i>
+          <span>100% Safe Work</span>
+        </div>
+        <div class="trust-chip">
+          <i class="fas fa-star"></i>
+          <span>5000+ Clients</span>
+        </div>
+      </div>
+      
+      <div class="hero-btns">
+        <a href="tel:+919924206106" class="btn btn-primary">
+          <i class="fas fa-phone-alt"></i> Call: 99242 06106
+        </a>
+        <a href="https://wa.me/919924206106?text=Namaste%20Kalpesh%20Bhai,%20mujhe%20electrical%20kaam%20ke%20liye%20quote%20chahiye" class="btn btn-outline">
+          <i class="fab fa-whatsapp"></i> WhatsApp Quote
+        </a>
+      </div>
+    </div>
+    
+    <div class="hero-image-wrapper">
+      <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80" alt="Professional Electrical Work" class="hero-main-img">
+      <div class="floating-card">
+        <div class="floating-card-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="floating-card-text">
+          <h4>5000+</h4>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Bar -->
+<section class="stats-bar">
+  <div class="stats-container">
+    <div class="stat-box">
+      <div class="stat-icon">📅</div>
+      <span class="stat-value">15+</span>
+      <span class="stat-label">Years Experience</span>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon">👥</div>
+      <span class="stat-value">5000+</span>
+      <span class="stat-label">Happy Clients</span>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon">⚡</div>
+      <span class="stat-value">24/7</span>
+      <span class="stat-label">Support Available</span>
+    </div>
+    <div class="stat-box">
+      <div class="stat-icon">✅</div>
+      <span class="stat-value">100%</span>
+      <span class="stat-label">Quality Guaranteed</span>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-pill">Our Expertise</div>
+      <h2 class="section-title">Complete Electrical Services</h2>
+      <p class="section-subtitle">From small repairs to large commercial projects - we handle everything with precision and safety standards</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="House Wiring" class="service-img">
+          <div class="service-badge">Most Popular</div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon-box">🏠</div>
+          <h3>Residential Wiring</h3>
+          <p>Complete house wiring solutions for new constructions and renovations in Surat</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> New House Complete Wiring</li>
+            <li><i class="fas fa-check"></i> MCB & Distribution Board</li>
+            <li><i class="fas fa-check"></i> Concealed/Open Wiring</li>
+            <li><i class="fas fa-check"></i> Chemical Earthing</li>
+            <li><i class="fas fa-check"></i> Load Calculation & Planning</li>
+          </ul>
+          <div class="service-caption">
+            <p><i class="fas fa-info-circle"></i> ISI standard materials use karte hai. 1 saal ki free maintenance warranty milti hai.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80" alt="Electrical Repair" class="service-img">
+          <div class="service-badge">24/7 Available</div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon-box">🔧</div>
+          <h3>Repair & Maintenance</h3>
+          <p>Quick and reliable solutions for all electrical problems - 24/7 emergency service</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Short Circuit Repair</li>
+            <li><i class="fas fa-check"></i> Sparking & Fuse Issues</li>
+            <li><i class="fas fa-check"></i> Switch Board Replacement</li>
+            <li><i class="fas fa-check"></i> Emergency Breakdown Service</li>
+            <li><i class="fas fa-check"></i> Preventive Maintenance</li>
+          </ul>
+          <div class="service-caption">
+            <p><i class="fas fa-bolt"></i> Emergency call par 30-45 min me Surat me kahi bhi pahunchte hai.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?w=600&q=80" alt="Installation" class="service-img">
+        </div>
+        <div class="service-content">
+          <div class="service-icon-box">💡</div>
+          <h3>Installation Services</h3>
+          <p>Professional installation of all electrical appliances and fixtures</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Ceiling Fans & LED Lights</li>
+            <li><i class="fas fa-check"></i> Geyser & AC Points</li>
+            <li><i class="fas fa-check"></i> Inverter & UPS Setup</li>
+            <li><i class="fas fa-check"></i> Modular Switches</li>
+            <li><i class="fas fa-check"></i> Decorative Lighting</li>
+          </ul>
+          <div class="service-caption">
+            <p><i class="fas fa-tools"></i> Branded products ka installation with proper warranty cards.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&q=80" alt="Meter Work" class="service-img">
+        </div>
+        <div class="service-content">
+          <div class="service-icon-box">📊</div>
+          <h3>Meter & Panel Work</h3>
+          <p>Complete electricity board related services and panel installations</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> New Meter Connection</li>
+            <li><i class="fas fa-check"></i> Load Enhancement</li>
+            <li><i class="fas fa-check"></i> 3-Phase Connection</li>
+            <li><i class="fas fa-check"></i> MCB Upgradation</li>
+            <li><i class="fas fa-check"></i> Bill Dispute Support</li>
+          </ul>
+          <div class="service-caption">
+            <p><i class="fas fa-file-alt"></i> DGVCL ke saare paperwork aur formalities hum handle karte hai.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Commercial Wiring" class="service-img">
+        </div>
+        <div class="service-content">
+          <div class="service-icon-box">🏢</div>
+          <h3>Commercial Wiring</h3>
+          <p>Professional electrical solutions for offices, shops and industries</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Shop & Office Wiring</li>
+            <li><i class="fas fa-check"></i> Industrial Panel Work</li>
+            <li><i class="fas fa-check"></i> Cable Laying & Trunking</li>
+            <li><i class="fas fa-check"></i> Heavy Load Management</li>
+            <li><i class="fas fa-check"></i> Generator Connection</li>
+          </ul>
+          <div class="service-caption">
+            <p><i class="fas fa-building"></i> Surat Textile Market, Ring Road ke 200+ shops ka kaam kiya hai.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="Safety" class="service-img">
+        </div>
+        <div class="service-content">
+          <div class="service-icon-box">🛡️</div>
+          <h3>Safety & Earthing</h3>
+          <p>Protect your family and property with proper safety systems</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Chemical Earthing</li>
+            <li><i class="fas fa-check"></i> Lightning Arrestor</li>
+            <li><i class="fas fa-check"></i> ELCB/RCCB Installation</li>
+            <li><i class="fas fa-check"></i> Safety Audit & Testing</li>
+            <li><i class="fas fa-check"></i> Fire Safety Compliance</li>
+          </ul>
+          <div class="service-caption">
+            <p><i class="fas fa-shield-alt"></i> Chemical earthing se monsoon me bhi proper protection milti hai.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="section about-section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-content">
+        <div class="section-pill" style="background:rgba(217,119,6,0.15);color:var(--gold-light);border-color:rgba(217,119,6,0.35)">About Us</div>
+        <h3>15+ Years of Trusted Electrical Service in Surat</h3>
+        <p>Kalpesh Electrical ek government licensed electrical contractor hai jo pichle 15 saalo se Surat me best quality electrical services de raha hai.</p>
+        <p>Humara mission hai - har ghar aur business ko safe, reliable aur affordable electricity solutions dena. ISI standards follow karke aur branded materials use karke hum 100% quality guarantee dete hai.</p>
+        
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <div>
+              <h4>Licensed Expert</h4>
+              <p>Govt certified wireman with valid license</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <div>
+              <h4>Modern Equipment</h4>
+              <p>Latest tools & testing instruments</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <div>
+              <h4>Honest Pricing</h4>
+              <p>No hidden charges, transparent rates</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div>
+              <h4>On-Time Service</h4>
+              <p>We value your time, always punctual</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=700&q=80" alt="Kalpesh Electrical Team" class="about-main-img">
+        <div class="cert-card">
+          <div class="cert-badge">
+            <i class="fas fa-award"></i> Government Licensed
+          </div>
+          <h4>Certifications & Trust</h4>
+          <ul>
+            <li><i class="fas fa-check"></i> Electrical Contractor License</li>
+            <li><i class="fas fa-check"></i> ISI Standard Compliance</li>
+            <li><i class="fas fa-check"></i> Safety Training Certified</li>
+            <li><i class="fas fa-check"></i> 5000+ Satisfied Customers</li>
+            <li><i class="fas fa-check"></i> 4.9★ Average Rating</li>
+            <li><i class="fas fa-check"></i> Insurance Covered Work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section" id="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-pill">Client Reviews</div>
+      <h2 class="section-title">What Our Surat Clients Say</h2>
+      <p class="section-subtitle">5000+ happy customers across Surat ki zubani</p>
+    </div>
+    
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="quote-mark"><i class="fas fa-quote-right"></i></div>
+        <div class="rating">★★★★★</div>
+        <p class="testimonial-text">"Kalpesh bhai ne mere naye ghar ki puri wiring Adajan area me ki. Bahut hi neat aur clean kaam. Rate bhi market se kam aur quality top class. Highly recommended for Surat!"</p>
+        <div class="testimonial-author">
+          <div class="author-img">R</div>
+          <div class="author-details">
+            <h5>Rajesh Patel</h5>
+            <p>Adajan, Surat • House Wiring</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="quote-mark"><i class="fas fa-quote-right"></i></div>
+        <div class="rating">★★★★★</div>
+        <p class="testimonial-text">"Raat ko 11 baje Vesu me short circuit ho gaya tha. Call kiya aur 30 min me aa gaye. Emergency service ekdum best. Thank you Kalpesh bhai!"</p>
+        <div class="testimonial-author">
+          <div class="author-img">P</div>
+          <div class="author-details">
+            <h5>Priya Shah</h5>
+            <p>Vesu, Surat • Emergency Repair</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial">
+        <div class="quote-mark"><i class="fas fa-quote-right"></i></div>
+        <div class="rating">★★★★★</div>
+        <p class="testimonial-text">"Meri dukan ki wiring aur lighting Ring Road par Kalpesh bhai ne ki. Professional kaam, time pe complete kiya, aur rate bhi genuine. 5 star!"</p>
+        <div class="testimonial-author">
+          <div class="author-img">A</div>
+          <div class="author-details">
+            <h5>Amit Kumar</h5>
+            <p>Ring Road, Surat • Commercial Work</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-pill" style="background:rgba(255,255,255,0.15);color:var(--gold-light);border-color:rgba(255,255,255,0.2)">Get In Touch</div>
+      <h2 class="section-title" style="color:#fff">Sampark Kare</h2>
+      <p class="section-subtitle" style="color:rgba(255,255,255,0.9)">Free consultation aur instant quote ke liye abhi call kare</p>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p>Get in touch for free consultation and quick service across Surat</p>
+        
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="contact-icon">👤</div>
+            <div class="contact-details">
+              <h4>Proprietor</h4>
+              <p>Kalpesh Bhai</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div class="contact-details">
+              <h4>Phone Number</h4>
+              <a href="tel:+919924206106">+91 99242 06106</a>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">💬</div>
+            <div class="contact-details">
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/919924206106">99242 06106</a>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div class="contact-details">
+              <h4>Service Area</h4>
+              <p>Surat & Surrounding Areas</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">⏰</div>
+            <div class="contact-details">
+              <h4>Working Hours</h4>
+              <p>Mon - Sun: 8:00 AM - 9:00 PM</p>
+              <p style="font-size:14px;opacity:0.8;margin-top:5px">Emergency: 24/7 Available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="payment-card">
+        <h3><i class="fas fa-mobile-alt"></i> Digital Payment</h3>
+        <p>Online payment ke liye UPI use kare. Instant, secure aur easy.</p>
+        
+        <div class="upi-box">
+          <div class="upi-label">UPI ID</div>
+          <div class="upi-id">9924206106@ybl</div>
+          <p style="font-size:13px;opacity:0.9;margin-top:12px">Scan kare ya UPI ID copy kare</p>
+        </div>
+        
+        <a href="upi://pay?pa=9924206106@ybl&pn=Kalpesh%20Electrical&cu=INR" class="btn btn-primary" style="width:100%;justify-content:center;font-size:16px">
+          <i class="fas fa-mobile-alt"></i> UPI App Se Pay Kare
+        </a>
+        
+        <div class="payment-apps">
+          <span class="payment-app">PhonePe</span>
+          <span class="payment-app">Google Pay</span>
+          <span class="payment-app">Paytm</span>
+          <span class="payment-app">BHIM</span>
+        </div>
+        
+        <div class="info-note">
+          <i class="fas fa-info-circle"></i>
+          <span>Payment ke baad screenshot WhatsApp par bhej de for confirmation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h3>⚡ KALPESH ELECTRICAL</h3>
+        <p>Government licensed electrical contractor providing safe, reliable and affordable electrical solutions across Surat since 2010.</p>
+        <div class="social-links">
+          <a href="https://wa.me/919924206106" class="social-link"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:+919924206106" class="social-link"><i class="fas fa-phone"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Reviews</a></li>
+          <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> House Wiring</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Commercial Work</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Emergency Repair</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Installation</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Safety Audit</a></li>
+          <li><a href="#services"><i class="fas fa-chevron-right"></i> Meter Connection</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul>
+          <li><a href="tel:+919924206106"><i class="fas fa-phone"></i> 99242 06106</a></li>
+          <li><a href="https://wa.me/919924206106"><i class="fab fa-whatsapp"></i> WhatsApp Chat</a></li>
+          <li><a href="#"><i class="fas fa-map-marker-alt"></i> Surat, Gujarat</a></li>
+          <li><a href="#"><i class="fas fa-clock"></i> 8 AM - 9 PM Daily</a></li>
+          <li><a href="#"><i class="fas fa-bolt"></i> 24/7 Emergency</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i> kalpeshelectrical@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2026 Kalpesh Electrical. All Rights Reserved. | Licensed Electrical Contractor Surat | Gujarat</p>
+      <p class="footer-tagline">"Bijli Ka Kaam, Bharose Ke Saath" ⚡</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating Buttons -->
+<div class="float-container">
+  <a href="https://wa.me/919924206106?text=Namaste%20Kalpesh%20Bhai,%20mujhe%20electrical%20kaam%20ke%20liye%20baat%20karni%20hai" class="float-btn float-whatsapp" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919924206106" class="float-btn float-call" title="Call Now">
+    <i class="fas fa-phone"></i>
+  </a>
+</div>
+
+</body>
+</html>
